@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    font-size: 20px;
+    background: lightgray;
+}
+*{
+    box-sizing: border-box;
+}
+/*        HEADING
+/*=========================*/
+.wrapper{
+    padding: 10px;
+}
+.wrapper__inner{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 200px auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+.heading{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Sriracha', cursive;
+}
+.heading span{
+    text-align: center;
+}
+/*        NAVIGATION
+/*=========================*/
+.nav, .links{
+    background-color: BlueViolet;
+    border-top: 1px solid white;
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+}
+.nav__inner {
+    display: flex;
+    overflow-x: auto;
+}
+.nav__inner > div{
+    padding: 15px;
+    align-items: center;
+    max-height: 72px;
+    transition: background-color .2s linear;
+}
+.nav__inner > div > a{
+    font-family: 'Lemonada', cursive;
+    text-decoration: none;
+    color: white;
+}
+.nav__inner > div:hover{
+    background-color: DarkViolet;
+    color: black;
+}
+.nav__inner > div:active{
+    background-color: DarkMagenta;
+}
+
+.links__inner{
+    display: flex;
+    overflow-x: auto;
+}
+.links__inner > div{
+    padding: 15px;
+    max-height: 72px;
+    border-right: 2px solid white;
+    transition: background-color .2s linear;
+}
+.links__inner > div:hover{
+    background-color: DarkViolet;
+    color: black;
+}
+.links__inner > div:active{
+    background-color: DarkMagenta;
+}
+.links__inner > div a{
+    font-family: 'Lemonada', cursive;
+    text-decoration: none;
+    color: white;
+}
+/*        CONTENT
+/*=========================*/
+.content{
+    background-color: white;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height: 500px;
+}
+.content_inner_wrapper{
+    display: flex;
+    align-items: center;
+}
+.labelMatrix > p{
+    font-size: 30px;
+    font-family: 'Lemonada', cursive;
+}
+.enterSizeMatrix{
+    margin-left: 45px;
+}
+.enterSizeMatrix > input{
+    font-size: 30px;
+    min-width: 90px;
+    max-width: 100px;
+}
+input[type=submit]{
+    padding: 20px 35px;
+    background-color: #8a2be2;
+    font-size: 20px;
+    font-family: 'Lemonada', cursive;
+    color: white;
+    opacity: .75;
+    transition: background-color,  .3s linear;
+}
+input[type=submit]:hover{
+    background-color: #9900b0;
+    opacity: 100;
+}
+.tableMatrix {
+    margin: 10px 15px;
+}
+td > input{
+    font-size: 30px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+}
+table.matrix{
+    margin: 0 auto;
+}
+/*        FOOTER
+/*=========================*/
+footer p{
+    padding-left: 20px;
+}
+footer{;
+    font-family: 'Lemonada', cursive;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    background-color: BlueViolet;
+    position: absolute;
+    width: 100%;
+}
+

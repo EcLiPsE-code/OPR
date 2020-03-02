@@ -131,6 +131,10 @@ td > input{
 table.matrix{
     margin: 0 auto;
 }
+.labelContent{
+    font-size: 30px;
+    font-family: 'Lemonada', cursive;
+}
 /*        FOOTER
 /*=========================*/
 footer p{

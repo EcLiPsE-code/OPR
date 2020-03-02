@@ -56,45 +56,59 @@
            <table class="matrix">
                <tbody id="tableBody">
                    <tr>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
+                       <td><input type="text" value="0"></td>
+                       <td><input type="text" value="19"></td>
+                       <td><input type="text" value="16"></td>
+                       <td><input type="text" value="13"></td>
+                       <td><input type="text" value="16"></td>
                    </tr>
                    <tr>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
+                       <td><input type="text" value="19"></td>
+                       <td><input type="text" value="0"></td>
+                       <td><input type="text" value="5"></td>
+                       <td><input type="text" value="12"></td>
+                       <td><input type="text" value="16"></td>
                    </tr>
                    <tr>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
+                       <td><input type="text" value="16"></td>
+                       <td><input type="text" value="5"></td>
+                       <td><input type="text" value="0"></td>
+                       <td><input type="text" value="3"></td>
+                       <td><input type="text" value="14"></td>
                    </tr>
                    <tr>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
+                       <td><input type="text" value="13"></td>
+                       <td><input type="text" value="12"></td>
+                       <td><input type="text" value="3"></td>
+                       <td><input type="text" value="0"></td>
+                       <td><input type="text" value="11"></td>
                    </tr>
                    <tr>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
-                       <td><input type="text"></td>
+                       <td><input type="text" value="16"></td>
+                       <td><input type="text" value="16"></td>
+                       <td><input type="text" value="14"></td>
+                       <td><input type="text" value="1"></td>
+                       <td><input type="text" value="0"></td>
                    </tr>
                </tbody>
            </table>
         </div>
         <div class="calcRes">
-            <input type="submit" value="РАССЧИТАТЬ">
+            <p class="labelContent">Минимальное время трансопртировки:</p>
+            <input type="submit" value="Рассчитать" onclick="calculateMinTimeTransp()">
+            <p id="resMin"></p>
+
+            <p class="labelContent">Максимальное время трансопртировки:</p>
+            <input type="submit" value="Рассчитать" onclick="calculateMaxTimeTransp()">
+            <p id="resMax"></p>
+
+            <p class="labelContent">Минимальное время трансопртировки (методом перебора):</p>
+            <input type="submit" value="Рассчитать" onclick="minValueExhaustiveSearch()">
+            <p id="resMinExhaust"></p>
+
+            <p class="labelContent">Максимальное время трансопртировки (методом перебора):</p>
+            <input type="submit" value="Рассчитать" onclick="maxValueExhaustiveSearch()">
+            <p id="resMaxExhaust"></p>
         </div>
     </div>
     <footer>
@@ -103,5 +117,6 @@
     </footer>
     <script type="text/javascript" src="resources/js/calcCurrentDate.js"></script>
     <script type="text/javascript" src="resources/js/generatedMatrix.js"></script>
+    <script type="text/javascript" src="resources/js/greedyAlgorithm.js"></script>
 </body>
 </html>

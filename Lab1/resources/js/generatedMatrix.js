@@ -1,8 +1,8 @@
 'use strict';
 
 function generateMatrix() {
-    let matrixSizeEntry = document.getElementById('sizeMatrix');
-    let size = parseInt(matrixSizeEntry.toString());
+    let matrixSizeEntry = document.getElementById("sizeMatrix").value;
+    let size = parseInt(matrixSizeEntry);
     if (!!size && size > 0 && size <= 10){
         let tableBody = document.getElementById("tableBody");
         tableBody.innerHTML = "";

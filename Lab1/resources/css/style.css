@@ -122,6 +122,7 @@ input[type=submit]:hover{
     margin: 10px 15px;
 }
 td > input{
+    background-color: lightgray;
     font-size: 30px;
     width: 100px;
     margin: 10px;

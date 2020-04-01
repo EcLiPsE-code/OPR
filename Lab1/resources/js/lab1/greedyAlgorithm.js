@@ -1,8 +1,8 @@
 function calculateMinTimeTransp() {
     let line = 0;
     let numArr = [[]];
-    let inputs = document.querySelectorAll("#tableBody input");
-    let size = Math.sqrt(inputs.length);
+    let inputs = document.querySelectorAll("#tableBody input"); /*получаем все input из таблицы*/
+    let size = Math.sqrt(inputs.length); /*размер матрицы*/
     inputs.forEach((input, index) => {
         if (index % size === 0 && index !== 0) {
             line++;
@@ -19,7 +19,6 @@ function calculateMinTimeTransp() {
     let outStr = "";
     for (let i = 0; i < size; i++) {
         let values = getMinValues(columns, numArr);
-        let item = size * (values.rowMin + 1) - (size - (values.colMin + 1));
         outStr += "P" + (values.rowMin + 1) + " - (" + values.min + ") - ";
         if (i + 1 === size) outStr += "P" + (values.colMin + 1);
         columns.push(values.colMin);
@@ -50,8 +49,6 @@ function calculateMaxTimeTransp() {
     let outStr = "";
     for (let i = 0; i < size; i++) {
         let values = getMaxValues(columns, numArr);
-        let item = size * (values.rowMax + 1) - (size - (values.colMax + 1));
-
         outStr += "P" + (values.rowMax + 1) + " - (" + values.max + ") - ";
         if (i + 1 === size) outStr += "P" + (values.colMax + 1);
         columns.push(values.colMax);
@@ -61,7 +58,7 @@ function calculateMaxTimeTransp() {
     document.getElementById("resMax").innerHTML = "Максимальное время транспортировки: " + outStr;
 }
 
-function minValueExhaustiveSearch() {
+function exhaustiveSearchMethodMin() {
     let line = 0;
     let numArr = [[]];
     let inputs = document.querySelectorAll("#tableBody input");
@@ -82,17 +79,17 @@ function minValueExhaustiveSearch() {
     let outStr = "";
     for (let i = 0; i < size; i++) {
         let values = exhaustiveSearchMin(numArr, i);
-        let item = size * (values.rowMin + 1) - (size - (values.colMin + 1));
+
         outStr += "P" + (values.rowMin + 1) + " - (" + values.min + ") - ";
         if (i + 1 === size) outStr += "P" + (values.colMin + 1);
         columns.push(values.colMin);
         sum += values.min;
     }
     outStr += " = " + sum + " мин.";
-    document.getElementById("resMinExhaust").innerHTML = "Минимальное время транспортировки (методом перебора): " + outStr;
+    document.getElementById("resMinExhaust").innerHTML = 'Минимальное время транспортировки (методом перебора): ' + outStr;
 }
 
-function maxValueExhaustiveSearch() {
+function exhaustiveSearchMethodMax() {
     let line = 0;
     let numArr = [[]];
     let inputs = document.querySelectorAll("#tableBody input");
@@ -113,60 +110,15 @@ function maxValueExhaustiveSearch() {
     let outStr = "";
     for (let i = 0; i < size; i++) {
         let values = exhaustiveSearchMax(numArr, i);
-        let item = size * (values.rowMax + 1) - (size - (values.colMax + 1));
+
         outStr += "P" + (values.rowMax + 1) + " - (" + values.max + ") - ";
         if (i + 1 === size) outStr += "P" + (values.colMax + 1);
         columns.push(values.colMax);
         sum += values.max;
     }
     outStr += " = " + sum + " мин.";
-    document.getElementById("resMaxExhaust").innerHTML = "Максимальное время транспортировки (методом перебора): " + outStr;
+    document.getElementById("resMaxExhaust").innerHTML = 'Максимальное  время транспортировки (методом перебора): ' + outStr;
 }
-
-function exhaustiveSearchMin(numArr, i) {
-    let rowMin;
-    let colMin;
-    let min;
-    if ((i + 1) !== numArr.length) {
-        min = numArr[i][i + 1];
-        rowMin = i;
-        colMin = i + 1;
-        numArr[i].forEach((el, index) => {
-            if (index > i && el < min) {
-                min =  el;
-                colMin = index;
-            }
-        });
-    } else {
-        min = numArr[i][0];
-        rowMin = i;
-        colMin = 0;
-    }
-    return {min, rowMin, colMin}
-}
-
-function exhaustiveSearchMax(numArr, i) {
-    let rowMax;
-    let colMin;
-    let max;
-    if ((i + 1) !== numArr.length) {
-        max = numArr[i][i + 1];
-        rowMax = i;
-        colMax = i + 1;
-        numArr[i].forEach((el, index) => {
-            if (index > i && el > max) {
-                max =  el;
-                colMax = index;
-            }
-        });
-    } else {
-        max = numArr[i][0];
-        rowMax = i;
-        colMax = 0;
-    }
-    return {max, rowMax, colMax}
-}
-
 function getMinValues(columns, numArr) {
     let size = numArr.length;
     let min = undefined;
@@ -221,4 +173,48 @@ function getMaxValues(columns, numArr) {
         rowMax = lastCol;
     }
     return {max, colMax, rowMax}
+}
+
+function exhaustiveSearchMin(numArr, i) {
+    let rowMin;
+    let colMin;
+    let min;
+    if ((i + 1) !== numArr.length) {
+        min = numArr[i][i + 1];
+        rowMin = i;
+        colMin = i + 1;
+        numArr[i].forEach((el, index) => {
+            if (index > i && el < min) {
+                min =  el;
+                colMin = index;
+            }
+        });
+    } else {
+        min = numArr[i][0];
+        rowMin = i;
+        colMin = 0;
+    }
+    return {min, rowMin, colMin}
+}
+
+function exhaustiveSearchMax(numArr, i) {
+    let rowMax;
+    let colMax;
+    let max;
+    if ((i + 1) !== numArr.length) {
+        max = numArr[i][i + 1];
+        rowMax = i;
+        colMax = i + 1;
+        numArr[i].forEach((el, index) => {
+            if (index > i && el > max) {
+                max =  el;
+                colMax = index;
+            }
+        });
+    } else {
+        max = numArr[i][0];
+        rowMax = i;
+        colMax = 0;
+    }
+    return {max, rowMax, colMax}
 }

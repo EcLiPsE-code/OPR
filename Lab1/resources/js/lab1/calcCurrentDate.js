@@ -20,6 +20,12 @@ function currentDate() {
 setInterval(function () {
     document.getElementById('dateDocument').innerHTML = currentDate();
 }, 1000);
+let user = {
+    name : 'Tom',
+    age : 23,
+    isAdmin : false,
+    courses : ['html', 'css', 'js'],
+};
 
 
 

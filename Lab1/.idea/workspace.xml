@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2037a1de-b75f-458d-a3c8-f05cd547fc04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/EcLiPsE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/lab2/lab2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/greedyAlgorithm.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/greedyAlgorithm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/calcCurrentDate.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/lab1/calcCurrentDate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/generatedMatrix.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/lab1/generatedMatrix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/greedyAlgorithm.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/lab1/greedyAlgorithm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -47,6 +47,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Learning\6 семестр\ОПР\OPR\Lab1" />
+      <recent name="D:\Learning\6 семестр\ОПР\OPR\Lab1\resources\js\lab1" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -70,7 +76,15 @@
       <workItem from="1582693526380" duration="909000" />
       <workItem from="1582698433146" duration="12000" />
       <workItem from="1583150867133" duration="967000" />
-      <workItem from="1583177031547" duration="4512000" />
+      <workItem from="1583177031547" duration="4646000" />
+      <workItem from="1583219765606" duration="288000" />
+      <workItem from="1583397714097" duration="3800000" />
+      <workItem from="1583402255918" duration="3281000" />
+      <workItem from="1583582914643" duration="33000" />
+      <workItem from="1584558013481" duration="10702000" />
+      <workItem from="1584626202604" duration="26000" />
+      <workItem from="1585749688748" duration="11167000" />
+      <workItem from="1585770193200" duration="981000" />
     </task>
     <servers />
   </component>
@@ -90,10 +104,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="324" y="133" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580587564730" />
-    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1582613927771">
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1584626227350">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582613927771" />
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584626227350" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582202445262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

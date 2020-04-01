@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №1, Выполнил: Солодков М.А, Группа: ИТП-31</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lemonada:300&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="wrapper">
+        <div class="wrapper__inner">
+            <div>
+                <img src="resources/images/gstu.png" alt="Здесь должен быть логотип" width="200" height="130">
+            </div>
+            <div class="heading">
+                <span>FRONT-END</span>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="nav">
+    <div class="nav__inner">
+        <div><a href="">Лабораторная работа 1</a></div>
+        <div><a href="">Лабораторная работа 2</a></div>
+        <div><a href="">Лабораторная работа 3</a></div>
+        <div><a href="">Лабораторная работа 4</a></div>
+        <div><a href="">Лабораторная работа 5</a></div>
+        <div><a href="">Лабораторная работа 6</a></div>
+    </div>
+</div>
+<div class="links">
+    <div class="links__inner">
+        <div><a href="http://www.edu.gstu.by/">Учебный портал ГГТУ</a></div>
+        <div><a href="https://www.gstu.by/">Официальный сайт ГГТУ</a></div>
+        <div><a href="https://issa.gstu.by">Личный кабинет пользователя ГГТУ</a></div>
+    </div>
+</div>
+<div class="content">
+    <div class="content__inner">
+        <div class="content_inner_wrapper">
+            <div class="labelMatrix">
+                <p>Выберите размер матрицы: </p>
+            </div>
+            <div class="enterSizeMatrix">
+                <input type="number" max="10" min="0" value="5" id="sizeMatrix">
+            </div>
+        </div>
+        <div class="button_apply">
+            <input type="submit" value="ПРИМЕНИТЬ" onclick="generateMatrix()">
+        </div>
+    </div>
+</div>
+<footer>
+    <p>Разработчик: Солодков М.А</p>
+    <p id="dateDocument"></p>
+</footer>
+<script type="text/javascript" src="resources/js/lab1/calcCurrentDate.js"></script>
+<script type="text/javascript" src="resources/js/lab1/generatedMatrix.js"></script>
+<script type="text/javascript" src="resources/js/lab1/greedyAlgorithm.js"></script>
+</body>
+</html>

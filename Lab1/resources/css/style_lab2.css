@@ -1,0 +1,121 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.enterA{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.enterB{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.enterN{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.enterEps{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+/*========Пассивный оптимальный алгоритм====*/
+.passiveOptionalAlgorithm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.passiveOptionalAlgorithm__inner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.printResult_passiveOptionalAlgorithm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.coordinateY{
+    margin-top: 10px;
+}
+.calc{
+    margin-top: 10px;
+}
+/*============Алгоритм блочного равномерного поиска========*/
+.blockSearchAlgorithm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.blockSearchAlgorithm__inner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.printResult_blockSearchAlgorithm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/*=======Метод золотого сечения======*/
+.goldenRatioMethod{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.goldenRatioMethod__inner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.printResult_goldenRatioMethod{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/*========Метод фибоначчи=======*/
+.fibonacciMethod{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.fibonacciMethod__inner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.printResult_goldenRatioMethod{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/*=====Метод кубической интерполяции=======*/
+.cubicInterpolationMethod{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.cubicInterpolationMethod__inner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.enterX1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.printResult_cubicInterpolationMethod{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

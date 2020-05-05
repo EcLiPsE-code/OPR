@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Лабораторная работа №1, Выполнил: Солодков М.А, Группа: ИТП-31</title>
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style_lab2.css">
     <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lemonada:300&display=swap" rel="stylesheet">
 </head>
@@ -16,7 +17,7 @@
                 <img src="resources/images/gstu.png" alt="Здесь должен быть логотип" width="200" height="130">
             </div>
             <div class="heading">
-                <span>FRONT-END</span>
+                <span>ОПТИМИЗАЦИЯ ПРОЕКТНЫХ РЕШЕНИЙ</span>
             </div>
         </div>
     </div>
@@ -27,8 +28,6 @@
         <div><a href="">Лабораторная работа 2</a></div>
         <div><a href="">Лабораторная работа 3</a></div>
         <div><a href="">Лабораторная работа 4</a></div>
-        <div><a href="">Лабораторная работа 5</a></div>
-        <div><a href="">Лабораторная работа 6</a></div>
     </div>
 </div>
 <div class="links">
@@ -39,17 +38,196 @@
     </div>
 </div>
 <div class="content">
-    <div class="content__inner">
-        <div class="content_inner_wrapper">
-            <div class="labelMatrix">
-                <p>Выберите размер матрицы: </p>
+    <div class="passiveOptionalAlgorithm">
+        <div class="labelPassiveOptionalAlgorithm">
+            <p><b>Пассивный оптимальный алгоритм</b></p>
+        </div>
+        <div class="passiveOptionalAlgorithm__inner">
+            <div class="enterN">
+                <label for="enterN_Input">Введите количество разбиений: </label>
+                <input type="number" id="enterN_Input">
             </div>
-            <div class="enterSizeMatrix">
-                <input type="number" max="10" min="0" value="5" id="sizeMatrix">
+            <div class="enterA">
+                <label for="enterA_Input">Введите начало отрезка локализации: </label>
+                <input type="number" id="enterA_Input">
+            </div>
+            <div class="enterB">
+                <label for="enterB_input">Введите конец отрезка локализации: </label>
+                <input type="number" id="enterB_input">
             </div>
         </div>
-        <div class="button_apply">
-            <input type="submit" value="ПРИМЕНИТЬ" onclick="generateMatrix()">
+        <div class="printResult_passiveOptionalAlgorithm">
+            <div class="result_label">
+                <p>Результат вычислений: </p>
+            </div>
+            <div class="coordinateX">
+                <label for="coordinateX__passiveOptionalAlgorithm">Координата X: </label>
+                <input type="number" id="coordinateX__passiveOptionalAlgorithm" readonly>
+            </div>
+            <div class="coordinateY">
+                <label for="coordinateY__passiveOptionalAlgorithm">Координата Y: </label>
+                <input type="number" id="coordinateY__passiveOptionalAlgorithm" readonly>
+            </div>
+        </div>
+        <div class="calc">
+            <input type="submit" onclick="printFirstAlgorithm()" value="ВЫЧИСЛИТЬ" id="calcPassiveOptionalAlgorithm">
+            <hr>
+        </div>
+    </div>
+
+    <div class="blockSearchAlgorithm">
+        <div class="labelBlockSearchAlgorithm">
+            <p><b>Алгоритм блочного равномерного поиска</b></p>
+        </div>
+        <div class="blockSearchAlgorithm__inner">
+            <div class="enterN">
+                <label for="enterN_Input_blockSearch">Введите количество разбиений: </label>
+                <input type="number" id="enterN_Input_blockSearch">
+            </div>
+            <div class="enterA">
+                <label for="enterA_Input_blockSearch">Введите начало отрезка локализации: </label>
+                <input type="number" id="enterA_Input_blockSearch">
+            </div>
+            <div class="enterB">
+                <label for="enterB_input_blockSearch">Введите конец отрезка локализации: </label>
+                <input type="number" id="enterB_input_blockSearch">
+            </div>
+            <div class="enterEps">
+                <label for="enterEps_input_blockSearch">Введите точносьт: </label>
+                <input type="number" id="enterEps_input_blockSearch">
+            </div>
+        </div>
+        <div class="printResult_blockSearchAlgorithm">
+            <div class="result_label">
+                <p>Результат вычислений: </p>
+            </div>
+            <div class="coordinateX">
+                <label for="coordinateX__blockSearchAlgorithm">Координата X: </label>
+                <input type="number" id="coordinateX__blockSearchAlgorithm" readonly>
+            </div>
+            <div class="coordinateY">
+                <label for="coordinateY__blockSearchAlgorithm">Координата Y: </label>
+                <input type="number" id="coordinateY__blockSearchAlgorithm" readonly>
+            </div>
+        </div>
+        <div class="calc">
+            <input type="submit" onclick="printSecondAlgorithm()" value="ВЫЧИСЛИТЬ" id="calcBlockSearchAlgorithm">
+            <hr>
+        </div>
+    </div>
+
+    <div class="goldenRatioMethod">
+        <div class="labelGoldenRatioMethod">
+            <p><b>Метод золотого сечения</b></p>
+        </div>
+        <div class="goldenRatioMethod__inner">
+            <div class="enterA">
+                <label for="enterA_Input_goldenRatioMethod">Введите начало отрезка локализации: </label>
+                <input type="number" id="enterA_Input_goldenRatioMethod">
+            </div>
+            <div class="enterB">
+                <label for="enterB_input_goldenRatioMethod">Введите конец отрезка локализации: </label>
+                <input type="number" id="enterB_input_goldenRatioMethod">
+            </div>
+            <div class="enterEps">
+                <label for="enterEps_input_goldenRatioMethod">Введите точность: </label>
+                <input type="number" id="enterEps_input_goldenRatioMethod">
+            </div>
+        </div>
+        <div class="printResult_goldenRatioMethod">
+            <div class="result_label">
+                <p>Результат вычислений: </p>
+            </div>
+            <div class="coordinateX">
+                <label for="coordinateX__goldenRatioMethod">Координата X: </label>
+                <input type="number" id="coordinateX__goldenRatioMethod" readonly>
+            </div>
+            <div class="coordinateY">
+                <label for="coordinateY__goldenRatioMethod">Координата Y: </label>
+                <input type="number" id="coordinateY__goldenRatioMethod" readonly>
+            </div>
+        </div>
+        <div class="calc">
+            <input type="submit" onclick="printThirdAlgorithm()" value="ВЫЧИСЛИТЬ" id="calcGoldenRatioMethod">
+            <hr>
+        </div>
+    </div>
+
+    <div class="fibonacciMethod">
+        <div class="labelFibonacciMethod">
+            <p><b>Метод Фибоначчи</b></p>
+        </div>
+        <div class="fibonacciMethod__inner">
+            <div class="enterN">
+                <label for="enterN_Input_fibonacciMethod">Введите количество разбиений: </label>
+                <input type="number" id="enterN_Input_fibonacciMethod">
+            </div>
+            <div class="enterA">
+                <label for="enterA_Input_fibonacciMethod">Введите начало отрезка локализации: </label>
+                <input type="number" id="enterA_Input_fibonacciMethod">
+            </div>
+            <div class="enterB">
+                <label for="enterB_Input_fibonacciMethod">Введите конец отрезка локализации: </label>
+                <input type="number" id="enterB_Input_fibonacciMethod">
+            </div>
+        </div>
+        <div class="printResult_goldenRatioMethod">
+            <div class="result_label">
+                <p>Результат вычислений: </p>
+            </div>
+            <div class="coordinateX">
+                <label for="coordinateX__fibonacciMethod">Координата X: </label>
+                <input type="number" id="coordinateX__fibonacciMethod" readonly>
+            </div>
+            <div class="coordinateY">
+                <label for="coordinateY__fibonacciMethod">Координата Y: </label>
+                <input type="number" id="coordinateY__fibonacciMethod" readonly>
+            </div>
+        </div>
+        <div class="calc">
+            <input type="submit" onclick="printFirstAlgorithm()" value="ВЫЧИСЛИТЬ" id="calcFibonacciMethod">
+            <hr>
+        </div>
+    </div>
+
+    <div class="cubicInterpolationMethod">
+        <div class="labelCubicInterpolationMethod">
+            <p><b>Метод Фибоначчи</b></p>
+        </div>
+        <div class="cubicInterpolationMethod__inner">
+            <div class="enterEps">
+                <label for="enterEps_Input_cubicInterpolationMethod">Введите точность: </label>
+                <input type="number" id="enterEps_Input_cubicInterpolationMethod">
+            </div>
+            <div class="enterA">
+                <label for="enterA_Input_cubicInterpolationMethod">Введите начало отрезка локализации: </label>
+                <input type="number" id="enterA_Input_cubicInterpolationMethod">
+            </div>
+            <div class="enterB">
+                <label for="enterB_Input_cubicInterpolationMethod">Введите конец отрезка локализации: </label>
+                <input type="number" id="enterB_Input_cubicInterpolationMethod">
+            </div>
+            <div class="enterX1">
+                <label for="enterX1_Input_cubicInterpolationMethod">Введите начальную точку поиска: </label>
+                <input type="number" id="enterX1_Input_cubicInterpolationMethod">
+            </div>
+        </div>
+        <div class="printResult_cubicInterpolationMethod">
+            <div class="result_label">
+                <p>Результат вычислений: </p>
+            </div>
+            <div class="coordinateX">
+                <label for="coordinateX__cubicInterpolationMethod">Координата X: </label>
+                <input type="number" id="coordinateX__cubicInterpolationMethod" readonly>
+            </div>
+            <div class="coordinateY">
+                <label for="coordinateY__cubicInterpolationMethod">Координата Y: </label>
+                <input type="number" id="coordinateY__cubicInterpolationMethod" readonly>
+            </div>
+        </div>
+        <div class="calc">
+            <input type="submit" onclick="printFirstAlgorithm()" value="ВЫЧИСЛИТЬ" id="calcСubicInterpolationMethod">
+            <hr>
         </div>
     </div>
 </div>
@@ -58,7 +236,8 @@
     <p id="dateDocument"></p>
 </footer>
 <script type="text/javascript" src="resources/js/lab1/calcCurrentDate.js"></script>
-<script type="text/javascript" src="resources/js/lab1/generatedMatrix.js"></script>
-<script type="text/javascript" src="resources/js/lab1/greedyAlgorithm.js"></script>
+<script type="text/javascript" src="resources/js/lab2/lab2.js"></script>
+<script type="text/javascript" src="resources/js/lab2/lab2_Print_Result.js"></script>
+
 </body>
 </html>

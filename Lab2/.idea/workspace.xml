@@ -1,17 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9fb97c42-d6da-4a61-a8df-0b0011ce02e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Syn_Maminoy_Podrugi.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1bV9tHlgQzZbPXljA25uXVCCBuN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab3" />
+  </component>
+  <component name="RunManager" selected="Python.run">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lab2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="unconditional_optimizate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lab2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unconditional_optimizate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.unconditional_optimizate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fb97c42-d6da-4a61-a8df-0b0011ce02e1" name="Default Changelist" comment="" />
+      <created>1588706609630</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588706609630</updated>
+      <workItem from="1588706627635" duration="6723000" />
+      <workItem from="1588758184698" duration="2220000" />
+      <workItem from="1588885371544" duration="164000" />
+      <workItem from="1589148678486" duration="15584000" />
+      <workItem from="1589200974644" duration="17389000" />
+      <workItem from="1589233424713" duration="1822000" />
+      <workItem from="1589273955286" duration="5847000" />
+      <workItem from="1589312756230" duration="449000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1588706628540">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589225841306">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588706628540" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589225841306" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1589313212222">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589313212222" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589285590485">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589285590485" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589285590485">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589285590485" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589285590485">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589285590485" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589285590485">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589285590485" />
+    <state width="1323" height="4" key="GridCell.Tab.1.bottom" timestamp="1589226368078">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="4" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589226368078" />
+    <state width="1323" height="4" key="GridCell.Tab.1.center" timestamp="1589226368078">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="4" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589226368078" />
+    <state width="1323" height="4" key="GridCell.Tab.1.left" timestamp="1589226368078">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="4" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589226368078" />
+    <state width="1323" height="4" key="GridCell.Tab.1.right" timestamp="1589226368078">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="4" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589226368078" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589312759010">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1589312759010" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Lab2$unconditional_optimizate.coverage" NAME="unconditional_optimizate Coverage Results" MODIFIED="1589215301367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Lab2$run.coverage" NAME="run Coverage Results" MODIFIED="1589285130443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

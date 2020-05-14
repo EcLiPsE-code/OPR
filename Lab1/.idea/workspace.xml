@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2037a1de-b75f-458d-a3c8-f05cd547fc04" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout_lab2.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout_lab2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/style_lab2.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style_lab2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/lab2/lab2.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/lab2/lab2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/dictionaries/Syn_Maminoy_Podrugi.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../БЗСАПР/Lab1/lab1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -88,6 +86,7 @@
       <workItem from="1586932597331" duration="2914000" />
       <workItem from="1587598059438" duration="79000" />
       <workItem from="1588686212826" duration="10072000" />
+      <workItem from="1588878290975" duration="72000" />
     </task>
     <servers />
   </component>
@@ -107,10 +106,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="324" y="133" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580587564730" />
-    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1587598142132">
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1588878363536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587598142132" />
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588878363536" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1588688692125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -122,7 +121,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/resources/js/lab2/lab2_Print_Result.js</url>
           <line>1</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

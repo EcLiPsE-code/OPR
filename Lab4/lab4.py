@@ -21,6 +21,7 @@ class LinearOptimization:
             bias_lines.append([0] + condition)
         return np.array([z_line] + bias_lines, dtype=np.float)
 
+    #ведущий столбец
     @staticmethod
     def __get_index_lead_row(matrix_table, indx_lead_col):
         min_positive_val, indx_lead_row = None, None
@@ -42,7 +43,7 @@ class LinearOptimization:
         while True:
             for indx, basis_value in enumerate(basis):
                 if basis_value == 0:
-                    indx_lead_col = indx + 1
+                    indx_lead_col = indx + 1  #ведущая строка
                     indx_lead_row = self.__get_index_lead_row(matrix_table, indx_lead_col)
                     koef = matrix_table[indx_lead_row][indx_lead_col]
                     for i in range(1, matrix_table.shape[1]):

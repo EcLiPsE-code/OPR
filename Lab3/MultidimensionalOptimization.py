@@ -243,7 +243,6 @@ class MultidimensionalOptimization:
 
     def Hook_Jeeves_method(self, h, delta):
         """
-
         :param h: начальный шаг для поиска направления спуска
         :param delta: точность решения (предельное значения для шага h)
         :return:
